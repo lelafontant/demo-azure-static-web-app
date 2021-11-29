@@ -5,23 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <title>Demo static web app</title>
+    <title>Démo Azure static web apps</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <header class="page-header">
-      <h1>Static Web App</h1>
+        <div class="content-wrapper">
+            <h1 class="page-header-title" title="IFT2255 &ndash; Génie Logiciel">Azure static Web Apps</h1>
+            <p class="page-header-desc">
+                <em>Azure Static Web Apps</em> est un service d'automatisation qui compile et déploie une application web 
+                d'un dépot (<em>repository</em>) de code (GitHub ou Azure DevOps) vers Azure. Le flux est attaché à une 
+                branche du dépot et déclenché à chaque changement (push commits ou accept pull requests) sur cette branche.
+            </p>
+        </div>
     </header>
-    
+
     <main class="page-body">
-      <p>Hello friend</p>
+        <div class="content-wrapper">
+            <section class="feature-section">
+                <h2 class="feature-section-title">Fonctionnalités</h2>
+                <ul class="bare-list feature-list">
+                    <li class="feature">Hébergement web pour du contenu statique tel que HTML, CSS, JavaScript et images.</li>
+                    <li class="feature">Intégration d'API de support via <em>Azure Functions</em></li>
+                    <li class="feature">Intégration avec GitHub et Azure DevOps où un changement déclenche la construction et le déploiement.</li>
+                    <li class="feature">Contenu statique mondialement répandu, mettant le contenu plus proche des utilisateurs.</li>
+                    <li class="feature">Certificats SSL gratuit, renouvelé automatiquement.</li>
+                    <li class="feature">Nom de domaine personnalisé peut être configuré.</li>
+                </ul>
+                <a class="bare-link page-body-link" target="_blank" href="https://docs.microsoft.com/en-us/azure/static-web-apps/">Plus de détails</a>
+            </section>
+
+        </div>
     </main>
-  
-     <footer class="page-footer">
-       <p class="footer-license">
-          Copyright &copy; 2020 &ndash; 2021 Louis-Edouard LAFONTANT
-       </p>
+
+    <footer class="page-footer">
+        <div class="content-wrapper">
+            <p class="footer-license">
+                Copyright &copy; 2020 &ndash; 2021 Louis-Edouard LAFONTANT
+            </p>
+        </div>
     </footer>
 
 </body>
